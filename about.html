@@ -331,7 +331,7 @@
                     <div class="col-xl-3 col-sm-6 col-md-4 col-lg-3">
                         <div class="single-footer-widget footer_3">
                             <h4>Abonniere den Newsletter</h4>
-                            <form action="#">
+                            <form action="thanks.html" method="get">
                                 <div class="form-group">
                                     <div class="input-group mb-3">
                                         <input
@@ -340,23 +340,19 @@
                                             placeholder="E-Mail-Adresse"
                                             onfocus="this.placeholder = ''"
                                             id="email"
+                                            required
                                         />
                                         <div class="input-group-append">
                                             <button
                                                 class="btn"
-                                                type="button"
+                                                type="submit"
                                                 id="submit"
-                                                onclick="sendForm()"
                                             >
                                                 <i
                                                     class="fas fa-paper-plane"
                                                 ></i>
                                             </button>
                                         </div>
-                                        <div
-                                            id="result"
-                                            style="color: red; font-size: 12px"
-                                        ></div>
                                     </div>
                                 </div>
                             </form>
